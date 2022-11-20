@@ -1,7 +1,13 @@
 @import 'variables';
-h1{
-    color: $red-color;
+.navbar-collapse{
+    flex-grow: 0;
 }
-h2{
-    color: green;
+.avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.mlr{
+    margin: 0 16px;
 }
